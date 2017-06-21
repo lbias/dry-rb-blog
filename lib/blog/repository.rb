@@ -1,8 +1,7 @@
 # auto_register: false
 
 require "rom-repository"
-require "blog/container"
-require "blog/import"
+require "main/import"
 
 Blog::Container.boot! :rom
 

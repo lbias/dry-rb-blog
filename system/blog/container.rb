@@ -1,5 +1,6 @@
 require "dry/web/container"
 
+
 module Blog
   class Container < Dry::Web::Container
     configure do
